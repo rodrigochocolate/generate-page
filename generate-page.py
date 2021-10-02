@@ -10,7 +10,7 @@ template_HTML = '''<!DOCTYPE html>
 </head>
 <body>
   <header class="header">
-  	<h1>Matemática Curiosa</h1>
+    <h1>Matemática Curiosa</h1>
   </header>
 
   <main class="main">
@@ -40,10 +40,10 @@ new_page = path_new_page + name_new_page
 
 # It will only create the file (new_page) if it doesn't exist yet
 try:
-	page = open(new_page)
-	page.close()
+  page = open(new_page)
+  page.close()
 except:
-	new_page = open(new_page, 'a')
-	new_page.write(template_HTML)
+  new_page = open(new_page, 'a')
+  new_page.write(template_HTML)
 else:
   raise ValueError(f'The {name_new_page} page already exists!')
