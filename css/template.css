@@ -1,0 +1,19 @@
+.header {
+  width: 100vw;
+  height: 400px;
+  background-color: black;
+}
+
+.main {
+  width: 70%;
+  height: 75vh;
+  margin: auto;
+  border-radius: 8px;
+  background-color: greenyellow;
+}
+
+.footer {
+  width: 100vw;
+  height: 250px;
+  background-color: black;
+}
